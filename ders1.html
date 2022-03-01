@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tami</title>
+</head>
+<body>
+ 
+    <p><h1 id="h1">Pac-Man</h1>
+        <h2 id="h2">General information</h2>
+        Pac-Man is an arcade video game released in 1980, developed by the Japanese company Namco. The player's task is to control Pacman to eat all the points in the maze, avoiding meeting the ghosts that are chasing the hero.</p>
+         
+        <p>In Japan, the created game was called Puck-Man  (<strong> Japanese パ ッ ク マ ン pakkuman</strong> ), but when <br>localized in the US, Midway changed the name to Pac-Man, believing that with the original name, children could paint over the middle of the P, turning it into an F, and making the word obscene.</p>
+        
+        <h2>Game Characters</h2>
+        The main character Pacman was made friendly so people could associate themselves with him. The role of enemies in Pac-Man is played by four colorful ghosts:
+        <ul>
+            <li><b> Blinky</b> : A red ghost, stalking Pacman without much fuss.</li>
+            <li><b>Pinky</b>  : A pink ghost that targets a position 32 pixels from the front of the protagonist.</li>
+            <li><b>Inca</b>  : a blue ghost trying to get to a point found using a special algorithm, taking into account the position of the following objects:</li>
+            <ol>
+                <li>player;</li>
+                <li>another ghost - Blinky.</li>
+            </ol>
+            <li><b>Clyde</b>  : an orange ghost, which, depending on the distance from the main character, chases Pacman, then goes to the lower left corner of the maze.</li>
+        </ul>
+        <h2>Level 256</h2>
+        <p>The first person to beat Pac-Man was American Billy Mitchell. When the creator of the game, Tohru Iwatani,
+             met with him, Billy asked if some of the features he discovered had been deliberately allowed. 
+             Iwatani consulted with colleagues and replied as follows:</p>  
+
+        <p><i>Mr. Mitchell. We do not know. The game was not supposed to last that long.</i> </p> 
+        
+        <p>As conceived by the developers, Pac-Man was not 
+        supposed to have an end, since the increasing complexity 
+        of the game would not allow it to go far. However, some players 
+        were able to complete 255 levels of the game, which took several 
+        hours, and at 256 level they discovered the manifestation of a 
+        programming error in the form of a «screen of death».</p> 
+        
+        level 256 
+        <p>The reason for this error is the procedure that calculates the 
+        bonuses under the maze. When level 256 is reached, it loads the 
+        value 255 into the CPU register and increments it by one. 255 is 
+        the maximum value that can fit in a Zilog Z80 processor register, 
+        so when incremented by 1, an integer overflow occurs and zero is 
+        written to the register.</p> 
+        
+        <p>If the register value is less than 7, then the subroutine 
+        considers that this is one of the first levels on which to draw 
+        bonus symbols. After drawing, the register (currently equal to 
+        zero) is decremented by one and a «bottom overflow» occurs: a 
+        negative number cannot be written in the register, and 255 is 
+        placed in it. The drawing cycle is performed with decreasing the 
+        register value until it becomes equal to 0 (i.e. 256 times). 
+        The images of bonuses in the game are stored in a special table. 
+        Since its size is less than 256, the subroutine leaves the table 
+        and starts using data that is not intended for this.</p> 
+        <h2>Reprints</h2> 
+In 2010, on the 30th anniversary of the game, Google introduced
+ a thematic <a href="https://www.google.com/logos/2010/pacman10-i.html">«doodle» . The maze design was a Google logo, but 
+ the graphics, sounds, and ghost behavior patterns copied the 
+ original game. When you press the «Insert coin» button again, 
+ Mrs. Pacman appears on the screen, and the game can be played 
+ together on the same keyboard.
+<p>Pac-Man has been featured in numerous compilations of games 
+from Namco (for example, the Namco Museum series) and 
+compilations of the Pac-Man series. Some of them are presented 
+below.</p> 
+</a> 
+
+<table>
+    <thead>
+        <tr>
+            <th><a href="https://www.google.com/logos/2010/pacman10-i.html">Collection title</a> </th>
+            <th><a href="https://www.google.com/logos/2010/pacman10-i.html">First Related Date</a> </th>
+            <th><a href="https://www.google.com/logos/2010/pacman10-i.html">Included games</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td>
+                <a href="https://www.google.com/logos/2010/pacman10-i.html">Collection title	First Release Date	Included Games Namco Museum Vol. 1</a>
+               
+            </td>
+            <td>  <a href="https://www.google.com/logos/2010/pacman10-i.html">PlayStation: November 22, 1995</a></td>
+            <td>
+                <ul>
+                    <li><a href="https://www.google.com/logos/2010/pacman10-i.html">Bosconian</a> </li>
+                    <li><a href="https://www.google.com/logos/2010/pacman10-i.html"> Galaga,</a> </li>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">Galaga, Rally</a></li>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">Pac-Man,</a> </li>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">Pole Position,</a> </li>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">Rally X, Toy Pop</a> </li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td> <a href="https://www.google.com/logos/2010/pacman10-i.html">Pac-Man Collection </a></td>
+            <td> <a href="https://www.google.com/logos/2010/pacman10-i.html">GameBoy Advance: Jul 12, 2001</a> </td>
+            <td>
+                <ul>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">Pac-Attack, </a></li>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">Pac-Man,</a> </li>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">Pac-Man Arrangement, </a></li>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">Pac-Mania</a> </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>  <a href="https://www.google.com/logos/2010/pacman10-i.html">Namco Museum </a> </td>
+            <td>  <a href="https://www.google.com/logos/2010/pacman10-i.html">Nintendo Switch: July 28, 2017</a>  </td>
+            <td>
+                <ul>
+                    <li>  <a href="https://www.google.com/logos/2010/pacman10-i.html">Dig Dug,</a>  </li>
+                    <li>  <a href="https://www.google.com/logos/2010/pacman10-i.html">Galaga '88, </a> </li>
+                    <li>  <a href="https://www.google.com/logos/2010/pacman10-i.html">Pac-Man,</a>  </li>
+                    <li>  <a href="https://www.google.com/logos/2010/pacman10-i.html">Pac-Man Vs.,</a>  </li>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">Rolling Thunder 1, 2,</a> </li>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">Sky Kid</a> </li>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">Splatterhouse,</a> </li>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">Tank Force </a></li>
+                    <li> <a href="https://www.google.com/logos/2010/pacman10-i.html">The Tower of Druaga</a> </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+
+</table>
+
+<style>
+    .abi{
+        background-color: rgb(255, 0, 0);
+        width: 400px;
+        margin: auto;
+    }
+    #T{
+        color:#a3dbca;
+        text-align: center;
+        margin: 8px;
+        padding: 10px;
+        font-weight: 900;
+        font-style: italic;
+
+    }
+    #Uni{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        color: blueviolet;
+        text-align: center;
+        
+    }
+</style>
+<div class="abi">
+    <h2 id="T">Tamerlan</h2>
+    <p id="Uni">Adnsu</p>
+</div>
+</body>
+</html>
